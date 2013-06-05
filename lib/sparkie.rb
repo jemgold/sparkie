@@ -1,8 +1,8 @@
-require "gaffer/version"
+require "sparkie/version"
 
-module Gaffer
+module Sparkie
   def self.version_string
-    "Gaffer version #{Gaffer::VERSION}"
+    "Sparkie version #{Sparkie::VERSION}"
   end
 
   class Resistor

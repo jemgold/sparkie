@@ -1,5 +1,5 @@
 require 'rspec'
-require 'gaffer'
+require 'sparkie'
 
 RSpec.configure do |config|
   config.color_enabled  = true

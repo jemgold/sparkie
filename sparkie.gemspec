@@ -1,11 +1,11 @@
 # coding: utf-8
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'gaffer/version'
+require 'sparkie/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "gaffer"
-  spec.version       = Gaffer::VERSION
+  spec.name          = "sparkie"
+  spec.version       = Sparkie::VERSION
   spec.authors       = ["Jon Gold"]
   spec.email         = ["hello@designedbygold.com"]
   spec.description   = %q{Tools for working with electronics}
